@@ -31,6 +31,7 @@ services:
       - PGADMIN_DEFAULT_PASSWORD=pgadmin_password
     volumes:
       - dbadmin_data:/var/lib/pgadmin
+
 volumes:
   odoo-web-data:
   odoo-db-data:
