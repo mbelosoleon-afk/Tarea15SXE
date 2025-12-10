@@ -14,8 +14,8 @@ módulo sencillo que establece la bebida que deben tomar en función del nivel d
 sueño que tengan
     """,
 
-    'author': "My Company",
-    'website': "https://www.yourcompany.com",
+    'author': "Daniel Castelao",
+    'website': "https://www.danielcastelao.org",
 
     # Categories can be used to filter modules in modules listing
     # Check https://github.com/odoo/odoo/blob/15.0/odoo/addons/base/data/ir_module_category_data.xml

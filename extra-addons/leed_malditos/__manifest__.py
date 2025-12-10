@@ -2,10 +2,12 @@
 {
     'name': "leed_malditos",
 
-    'summary': "Short (1 phrase/line) summary of the module's purpose",
+    'summary': "Módulo para contar las veces que un profesor manda leer a los alumnos",
 
     'description': """
-Long description of module's purpose
+Desde la creciente tendencia del alumnado a no leer la documentación, apuntes ni cualquier material que requiera más de 15"
+de esfuerzo, este módulo permite llevar un conteo de cada ocasión en la que un profesor remite a un alumno a la documentación,
+al quedar claro -por la pregunta formulada- que no la ha leído a pesar de estar directamente relacionada con los contenidos.
     """,
 
     'author': "Daniel Castelao",
@@ -22,8 +24,7 @@ Long description of module's purpose
 
     # always loaded
     'data': [
-        # 'security/ir.model.access.csv',
-        'security/ir.model.acces.csv',
+        'security/ir.model.access.csv',
         'views/views.xml',
         'views/templates.xml',
     ],

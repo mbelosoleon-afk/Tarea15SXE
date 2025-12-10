@@ -8,7 +8,7 @@ class proyecto_sistemas(models.Model):
      _name = 'proyecto_sistemas.proyecto_sistemas'
      _description = 'Bebidas recomendadas'
 
-     nombre = fields.Char()
+     alumno = fields.Char(required = True)
      nivel_sueno = fields.Integer(
          string='Nivel de Sueno (1-10)',
          required=True,
